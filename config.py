@@ -20,14 +20,14 @@ YTUB_COOKIES = """
 """
 
 # ─── BOT / DATABASE CONFIG ──────────────────────────────────────────────────────
-API_ID       = os.getenv("API_ID", "")
-API_HASH     = os.getenv("API_HASH", "")
+API_ID       = os.getenv("API_ID", "26331872")
+API_HASH     = os.getenv("API_HASH", "c93589620441707c37c5683a02eea54e")
 BOT_TOKEN    = os.getenv("BOT_TOKEN", "")
-MONGO_DB     = os.getenv("MONGO_DB", "")
+MONGO_DB     = os.getenv("MONGO_DB", "mongodb+srv://ajmerasaini01:U1sGiZRI6Ha0xuCy@cluster0.tnok3d0.mongodb.net/")
 DB_NAME      = os.getenv("DB_NAME", "telegram_downloader")
 
 # ─── OWNER / CONTROL SETTINGS ───────────────────────────────────────────────────
-OWNER_ID     = list(map(int, os.getenv("OWNER_ID", "").split()))  # space-separated list
+OWNER_ID     = list(map(int, os.getenv("OWNER_ID", "8413546109").split()))  # space-separated list
 STRING       = os.getenv("STRING", None)  # optional session string
 LOG_GROUP    = int(os.getenv("LOG_GROUP", "-1001234456"))
 FORCE_SUB    = int(os.getenv("FORCE_SUB", "-10012345567"))
@@ -41,8 +41,8 @@ YT_COOKIES   = os.getenv("YT_COOKIES", YTUB_COOKIES)
 INSTA_COOKIES = os.getenv("INSTA_COOKIES", INST_COOKIES)
 
 # ─── USAGE LIMITS ───────────────────────────────────────────────────────────────
-FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "0"))
-PREMIUM_LIMIT  = int(os.getenv("PREMIUM_LIMIT", "500"))
+FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "999990"))
+PREMIUM_LIMIT  = int(os.getenv("PREMIUM_LIMIT", "5999900"))
 
 # ─── UI / LINKS ─────────────────────────────────────────────────────────────────
 JOIN_LINK     = os.getenv("JOIN_LINK", "https://t.me/team_spy_pro")
@@ -76,3 +76,4 @@ P0 = {
 # ════════════════════════════════════════════════════════════════════════════════
 # ░ DEVGAGAN
 # ════════════════════════════════════════════════════════════════════════════════
+
