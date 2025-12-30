@@ -29,12 +29,12 @@ DB_NAME      = os.getenv("DB_NAME", "telegram_downloader")
 # ─── OWNER / CONTROL SETTINGS ───────────────────────────────────────────────────
 OWNER_ID     = list(map(int, os.getenv("OWNER_ID", "8413546109").split()))  # space-separated list
 STRING       = os.getenv("STRING", None)  # optional session string
-LOG_GROUP    = int(os.getenv("LOG_GROUP", "-1003161993313"))
-FORCE_SUB    = int(os.getenv("FORCE_SUB", "-1003161993313"))
+LOG_GROUP    = int(os.getenv("LOG_GROUP", "-1003109592497"))
+FORCE_SUB    = int(os.getenv("FORCE_SUB", "-1003109592497"))
 
 # ─── SECURITY KEYS ──────────────────────────────────────────────────────────────
-MASTER_KEY   = os.getenv("MASTER_KEY", "gK8HzLfT9QpViJcYeB5wRa3DmN7P2xUq")  # session encryption
-IV_KEY       = os.getenv("IV_KEY", "s7Yx5CpVmE3F")  # decryption key
+MASTER_KEY   = os.getenv("MASTER_KEY", "6O2J4C7SjznrW5gf36zhB1ibExv0gNf91vIDrqzorvW2E5UqGc2Pouol9AWrIqh1BJaRwTPaA4nutiMG")  # session encryption
+IV_KEY       = os.getenv("IV_KEY", "ad0c836fac149046958d37bc8f9a1832")  # decryption key
 
 # ─── COOKIES HANDLING ───────────────────────────────────────────────────────────
 YT_COOKIES   = os.getenv("YT_COOKIES", YTUB_COOKIES)
@@ -76,5 +76,6 @@ P0 = {
 # ════════════════════════════════════════════════════════════════════════════════
 # ░ DEVGAGAN
 # ════════════════════════════════════════════════════════════════════════════════
+
 
 
